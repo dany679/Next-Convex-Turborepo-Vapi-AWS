@@ -15,7 +15,7 @@ export default function Page() {
         <div className="max-auto max-w-sm w-full">
           {JSON.stringify(users)}
           <Button size="sm" onClick={() => addUser()}>
-            Button
+            Add
           </Button>
         </div>
         {add(2, 3)}
